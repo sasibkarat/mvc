@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome</title>
+    <style>
+
+        .login {
+            width: 382px;
+            overflow: hidden;
+            margin: auto;
+            padding: 80px;
+            background: #23463f;
+            border-radius: 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #277582;
+            padding: 20px;
+        }
+
+        label {
+            color: #08ffd1;
+            font-size: 17px;
+        }
+
+        #usname {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+
+        #Pass {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+
+        #log {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 7px;
+            color: blue;
+        }
+
+
+        a {
+            float: right;
+            background-color: grey;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #6abadeba;
+            font-family: 'Arial';
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Login Page</h2><br>
+    <div class="login">
+        <form id="login" method="get" action="">
+            <label>
+                <b>
+                    User Name
+                </b>
+            </label>
+            <br><br>
+            <input type="text" name="usname" id="usname" placeholder="Name">
+            <br><br>
+            <label>
+                <b>Password</b>
+            </label>
+            <br><br>
+            <input type="Password" name="Pass" id="Pass" placeholder="Password">
+            <br><br>
+            <select name="Position">
+                <option value="1">Employe</option>
+                <option value="2">Project Manager</option>
+                <option value="3">HR</option>
+            </select>
+            <br><br>
+            <input type="submit" name="log" id="log" value="Log In Here">
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>     
